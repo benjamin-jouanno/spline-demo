@@ -39,11 +39,47 @@ body {
 
 .content {
   justify-content: center;
-
+  color: white;
   display: flex;
   position: relative;
   z-index: 9999;
 }
+
+
+.content-title {
+  justify-content: center;
+  color: white;
+  display: flex;
+  position: relative;
+  font-size: 40px;
+  margin-top: 10rem;
+  z-index: 9999;
+}
+
+.next {
+  margin-left: 3rem;
+}
+
+.left-infos {
+  position: relative;
+  color: white;
+  z-index: 9999;
+  font-size: 40px;
+  width: 35rem;
+  margin-left: 3rem;
+  margin-top: 15%;
+}
+.right-infos {
+  right: -20rem;
+  top: 40%;
+  position: absolute;
+  color: white;
+  z-index: 9999;
+  font-size: 40px;
+  width: 35rem;
+  margin-right: 3rem;
+}
+
 
 .title {
   width: fit-content;
