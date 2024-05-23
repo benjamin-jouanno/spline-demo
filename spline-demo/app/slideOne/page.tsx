@@ -6,7 +6,7 @@ export default function SlideOne() {
   return (
     <div>
         <div className="left-infos">
-        <p>{"Spline permet l'import de modèle 3D mais également l'interaction avec ces dernier, l'animaton au controlle utilisateur et à la sourie"}</p>
+        <p>{"Spline permet l'import de modèle 3D mais également l'interaction avec ces dernier, l'animaton au controlle utilisateur et à la souris"}</p>
         </div>
         <div className="right-infos">
         <p><Link href="/slideTwo">{'Next ->'}</Link></p>
